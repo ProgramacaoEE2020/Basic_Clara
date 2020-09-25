@@ -1,0 +1,15 @@
+Início 
+declare array xadrez [1...8, 2....8,3...8,4...8,.....8...8] : caractere 
+declare variável lin : inteiro; 
+declare variável col : inteiro ; 
+
+Para lin ←0 até 8 faça 
+	Para col ← 0 até 8 faça 
+	declare variável peça : caractere 
+	peça ← xadrez[lin][col] 
+	escreva (  ́ ́ |``,peça ); 
+	Fim Para 
+escreva (``--------------------------------``) 
+Fim Para 
+
+Fim 
